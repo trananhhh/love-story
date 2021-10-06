@@ -1,6 +1,6 @@
-const yourDate = new Date("2020-10-06T09:29:20"),
+const yourDate = new Date("2020-10-08T00:00:00"),
   music = ["ido", "noinaycoanh", "nguoiamphu"];
-const yourrDate = new Date("2021-10-06T09:37:30");
+const yourrDate = new Date("2021-10-06T11:42:00");
 
 document.addEventListener(
   "DOMContentLoaded",
@@ -34,7 +34,7 @@ document.addEventListener(
 
       if (new Date() - yourrDate >= 0)
         window.location.href =
-          "http://localhost:8080/demngayyeu/lovestory.html";
+          "lovestory.html";
       olock();
     }, 1000);
     document
