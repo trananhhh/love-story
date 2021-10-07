@@ -1,6 +1,6 @@
 const yourDate = new Date("2020-10-08T00:00:00"),
   music = ["ido", "noinaycoanh", "nguoiamphu"];
-const yourrDate = new Date("2021-10-08T00:00:00");
+const yourrDate = new Date("2021-10-8T00:00:00");
 
 document.addEventListener(
   "DOMContentLoaded",
@@ -29,20 +29,29 @@ document.addEventListener(
       }:${sec > 9 ? sec : "0" + sec}`;
     }
     olock();
+    // var wavesurfer = WaveSurfer.create({
+    //   container: "#waveform",
+    //   waveColor: "violet",
+    //   progressColor: "aqua",
+    // });
+
+    // wavesurfer.load(
+    //   "https://soundcloud.com/b-i-linh-7/du-cho-mai-ve-sau-demo?si=1476eae69dcf4d27b5fa695beb033b9d"
+    // );
     var timer = setInterval(function () {
       console.log(new Date() - yourrDate);
 
       if (new Date() - yourrDate >= 0)
         window.location.href =
-          "lovestory.html";
+          "http://localhost:8080/demngayyeu/lovestory.html";
       olock();
     }, 1000);
-    document
-      .querySelector("audio")
-      .setAttribute(
-        "src",
-        `music/${music[Math.floor(Math.random() * music.length)]}.mp3`
-      );
+    // document
+    //   .querySelector("audio")
+    //   .setAttribute(
+    //     "src",
+    //     `music/${music[Math.floor(Math.random() * music.length)]}.mp3`
+    //   );
 
     document
       .getElementsByTagName("body")[0]
