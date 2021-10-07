@@ -1,6 +1,6 @@
 const yourDate = new Date("2020-10-08T00:00:00"),
   music = ["ido", "noinaycoanh", "nguoiamphu"];
-const yourrDate = new Date("2021-10-06T11:44:00");
+const yourrDate = new Date("2021-10-08T00:00:00");
 
 document.addEventListener(
   "DOMContentLoaded",
