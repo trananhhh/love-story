@@ -1,5 +1,6 @@
 html, body {
       background-color: #f6f6f6;
+      background-image: '/img/bg.png';
       margin: 0;
       padding: 0;
 }
