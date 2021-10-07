@@ -6,11 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Yanone+Kaffeesatz:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
     <title>@peachteamiloxuho</title>
   </head>
   <body>
     <div id="wrapper">
-      <h1>LOVE DAYS</h1>
+      <h1>1 YEAR ANNIVERSARY</h1>
 
       <div id="clock-box">
         <div id="clock">
@@ -31,14 +38,16 @@
         </div>
       </div>
 
-      <div id="music">
-        <audio loop autoplay controls>
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-      <footer>Thank you for your love 💕</footer>
+      <iframe
+        id="music"
+        scrolling="no"
+        frameborder="no"
+        allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/817675645&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true"
+      ></iframe>
     </div>
 
+    <script src="https://unpkg.com/wavesurfer.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
