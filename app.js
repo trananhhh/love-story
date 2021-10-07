@@ -28,7 +28,7 @@ document.addEventListener(
     var timer = setInterval(function () {
       if (new Date() - yourrDate >= 0)
         window.location.href =
-          "http://localhost:8080/demngayyeu/lovestory.html";
+          "/lovestory.html";
       olock();
     }, 1000);
 
